@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<extension id="entry_nav" status="released" xmlns="http://symphony-cms.com/schemas/extension/1.0">
+
+	<name>Entry nav</name>
+
+	<description>Fast navigation between entries on Publish single pages.</description>
+
+	<repo type="github">https://github.com/vlad-ghita/entry_nav</repo>
+
+	<types>
+		<type>Interface</type>
+	</types>
+
+	<authors>
+		<author>
+			<name github="vlad-ghita" symphony="vladG">Vlad Ghita</name>
+			<email>vlad.github@gmail.com</email>
+			<website>http://www.xanderadvertising.com</website>
+		</author>
+	</authors>
+
+	<releases>
+		<release version="1.0.0" date="2012-10-04" min="2.2"><![CDATA[
+			* First release.
+		]]></release>
+	</releases>
+
+</extension>

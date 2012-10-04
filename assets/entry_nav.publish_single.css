@@ -1,0 +1,21 @@
+.entry-nav {
+	float: left !important;
+	margin-left: 10px;
+}
+
+.entry-nav .button {
+	display: block;
+	float: left;
+	margin: 0;
+}
+
+.entry-nav-prev {
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+.entry-nav-next {
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+	border-left: none;
+}
