@@ -21,7 +21,7 @@
 	</authors>
 
 	<releases>
-		<release version="1.0.0" date="2012-10-04" min="2.2"><![CDATA[
+		<release version="1.0.0" date="2012-10-04" min="2.3"><![CDATA[
 			* First release.
 		]]></release>
 	</releases>
