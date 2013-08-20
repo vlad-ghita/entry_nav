@@ -43,7 +43,12 @@
 				if( !$cxt instanceof XMLElement ) return;
 
 				$actions = $cxt->getChildByName( 'ul', 0 );
-				if( !$actions instanceof XMLElement ) return;
+				// append list of actions if missing
+				if( !$actions instanceof XMLElement ){
+				     $ul = new XMLelement('ul', null, array('class' => 'actions'));
+				     $cxt->appendChild( $ul );
+				     $actions = $cxt->getChildByName( 'ul', 0 );
+				}
 
 				// fetch entries
 				$section_id = SectionManager::fetchIDFromHandle( $callback['context']['section_handle'] );
